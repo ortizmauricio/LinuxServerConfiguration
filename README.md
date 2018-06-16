@@ -94,11 +94,11 @@ from a remote machine. The instructions below use Mac OS Terminal.
 
 ### Adapting Web Application From Local Machine Configuration To Actual Server
 1. Change directory to `/var/www/shoeCatalog/shoecatalog`
-1. Change final_project.py file to __init__.py by running `mv final_project.py __init__.py`
-1. Within __init__.py change `app.run(host='0.0.0.0', port=8000)`  to `app.run()`
+1. Change final_project.py file to `__init__.py` by running `mv final_project.py __init__.py`
+1. Within `__init__.py` change `app.run(host='0.0.0.0', port=8000)`  to `app.run()`
 1. Delete, rename, or move the database_setup.py file to another directory
 
-1. In database_setup.py annd __init__.py change `engine = create_engine('sqlite:///shoecatalogwithusers.db')` to:
+1. In database_setup.py and `__init__.py` change `engine = create_engine('sqlite:///shoecatalogwithusers.db')` to:
 `engine = create_engine('postgresql://catalog:DATABASEPASSWD@localhost/catalog')`
 1. Instruction for modifying the client_secrets.json files are found in the Additional notes section
 
