@@ -185,8 +185,13 @@ from a remote machine. The instructions below use Mac OS Terminal.
 1. Downloade the JSON client secrets file and replace the content ini `/var/www/shoeCatalog/shoecatalog/client_secrets.json` with the content that was just downloaded
 
 The Google API does not allow IP addresses to be used in either the Redirect URI or Javascript origins so a wildcard DNS such as .xip.io can be used 
-(http://xip.io/)
 
+
+## Third Party Resources
+- Providing WildCard DNS: http://xip.io/
+- Integrating Apache with Flask: https://www.jakowicz.com/flask-apache-wsgi/
+- Upgrading all packages: https://serverfault.com/questions/262751/update-ubuntu-10-04/262773#262773
+- Udacity Linux Security: https://www.udacity.com/course/configuring-linux-web-servers--ud299
 
 
 
