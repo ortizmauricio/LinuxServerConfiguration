@@ -1,5 +1,9 @@
 # Linux Server Configuration
-These are a set of instructions that specify how a Linux Server was deployed to host a Python web application with a PostgreSQL database, along with it's configurations. The server was deployed using AWS LightSail. Software and packages used include:
+These are a set of instructions that specify how a Linux Server was deployed to host a Python web application with a PostgreSQL database, along with it's configurations. 
+
+The actual source code for the application can be found here: https://github.com/ortizmauricio/shoecatalog
+
+The server was deployed using AWS LightSail. Software and packages used include:
 
 - PostgreSQL
 - Apache2
