@@ -125,7 +125,7 @@ from a remote machine. The instructions below use Mac OS Terminal.
 
 
 ### Set up and enable a virtual host
-1. Enter `vi /etc/apache2/sites-available/shoeCatalog.conf;
+1. Enter `vi /etc/apache2/sites-available/shoeCatalog.conf;`
 1. Add the following into the file:
 
 	```
